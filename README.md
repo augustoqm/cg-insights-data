@@ -1,3 +1,9 @@
+# CG Insights Data
+
+Com o objetivo de averiguarmos a situação política da Câmara Municipal de Campina Grande e assim exercermos mais diretamente nosso papel de cidadãos, lançamos mão da [Legislação sobre a Transparência Pública](http://www.portaldatransparencia.gov.br/sobre/Legislacao.asp) e coletamos o histórico de ementas publicadas no site da [Câmara Municipal de Campina Grande](https://www.campinagrande.pb.leg.br/) durante os anos de 2009 e 2016, mais especificamente no [Sistema de Busca de Documentos](http://187.115.174.90:8080/ScanLexWeb/).
+
+Assim fortalecemos o valioso esforço da população brasileira em conhecer mais e melhor o que e como trabalham os seus representantes no governo do país.
+
 ## Base de Dados
 A base de dados é composta pela tabela principal **ementas** (primeira do topo) e também por tabelas auxiliares geradas à mão (i.e. *comissoes_tecnicas*, *mesa_diretora*) e tabelas extraídas do Repositório de dados eleitorais no site do [Tribunal Superior Eleitoral (TSE)](http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais). Abaixo mostramos as tabelas e como elas são definidas, a principio não forçamos relações (i.e. chave estrangeira) mas elas podem ser criadas por meio das colunas com ids. 
 
@@ -22,5 +28,5 @@ A tabela **comissoes_tecnicas** lista as comissões técnicas formadas na câmar
 #### Tabelas do TSE
 As tabelas do TSE tem suas próprias descrições disponibilizadas pelo Repositório e também acessíveis aqui: [TSE_Leiame_2016.pdf](TSE_Leiame_2016.pdf) 
 
-**Dicas**
-* A cada eleição o TSE gera identificadores sequenciais (i.e. *sequencial_candidato*) para os candidatos. Então esse sequencial não pode ser usado para unir tabelas em diferentes eleições, para tal pode-se usar o nome do candidato (i.e. *nome_candidato*)
+## Aviso
+Esse repositório e todo o seu conteúdo não tem intenção política muito menos relação com quaisquer candidato a eleição ou pessoa pública.
