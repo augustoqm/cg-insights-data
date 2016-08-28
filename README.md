@@ -26,7 +26,9 @@ Mais abaixo na seção *Como Funciona?** damos mais detalhes do processo de subm
 A tabela **comissoes_tecnicas** lista as comissões técnicas formadas na câmara para lidar com questões específicas. Ela possui também o ano da eleição, o nome do candidato e seu id permitindo o relacionamento com as demais tabelas. Fizemos o mesmo com a tabela **mesa_diretora**, montamos a mão a lista da mesa diretora para facilitar futuras análises.
 
 #### Tabelas do TSE
-As tabelas do TSE tem suas próprias descrições disponibilizadas pelo Repositório e também acessíveis aqui: [TSE_Leiame_2016.pdf](TSE_Leiame_2016.pdf) 
+As tabelas do TSE contém os dados eleitorais públicos, da Paraíba apenas, para os anos 2008, 2012 e 2016. A tabela perfil_eleitor_secao foi filtrada ainda mais para CAMPINA GRANDE apenas, devido as suas proporções.
+
+Os campos e suas descrições estão disponíveis no próprio Repositório e também acessíveis aqui: [TSE_Leiame_2016.pdf](TSE_Leiame_2016.pdf) e [TSE_Leiame_2016-Perfil_Eleitor_Secao.pdf](TSE_Leiame_2016-Perfil_Eleitor_Secao.pdf).
 
 ## Aviso
 Esse repositório e todo o seu conteúdo não tem intenção política muito menos relação com quaisquer candidato a eleição ou pessoa pública.
