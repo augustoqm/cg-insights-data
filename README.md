@@ -9,7 +9,7 @@ A base de dados é composta pela tabela principal **ementas** (primeira do topo)
 
 ![Camara Data Model](camara_data_model.png)
 
-Os dados foram armazenados em um Banco de dados Postgresql e estão disponíveis para download aqui: [Dump Camara DB (dados até 12-08-2016)](dump_camara_db_12-08-16.zip).
+Os dados foram armazenados em um Banco de dados Postgresql e estão disponíveis para download aqui: [Dump Camara DB (dados até 12-08-2016)](dump_camara_db_12-08-16.zip) ou [Dump Camara DB (dados até 23-12-2016)](dump_camara_db_23-12-16.zip).
 
 ### Descrição das tabelas
 
